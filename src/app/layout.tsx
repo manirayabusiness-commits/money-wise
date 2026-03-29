@@ -17,12 +17,12 @@ const plusJakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Money Wise Foundation — Master Your Personal Finance",
   description:
-    "Money Wise Foundation helps you take control of your money through budgeting, smart investing, and debt elimination strategies. Start building real financial freedom today.",
-  keywords: ["financial literacy", "budgeting", "investing", "debt management", "personal finance"],
+    "Money Wise Foundation is a non-profit organisation dedicated to financial literacy. We empower underserved communities with the knowledge and tools to build lasting financial freedom.",
+  keywords: ["non-profit", "financial literacy", "ngo", "financial education", "budgeting", "investing"],
   openGraph: {
     title: "Money Wise Foundation — Master Your Personal Finance",
     description:
-      "Take control of your money with budgeting, investing, and debt management tools built for everyone.",
+      "A non-profit foundation dedicated to empowering underserved communities through accessible financial education.",
     type: "website",
   },
 };

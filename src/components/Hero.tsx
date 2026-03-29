@@ -34,25 +34,24 @@ export default function Hero() {
 
         {/* Subheadline */}
         <p className="text-lg md:text-xl text-[--muted] max-w-2xl mx-auto leading-relaxed mb-10 animate-fade-in-up-delay-2">
-          Money Wise Foundation turns complex money concepts into simple, actionable steps.
-          Budget smarter, invest confidently, and eliminate debt — all in one place.
+          Empowering underserved communities through financial education. We provide free, accessible tools and courses to help everyone build a foundation of lasting financial freedom.
         </p>
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20 animate-fade-in-up-delay-3">
           <a
-            href="#features"
+            href="#donate"
             id="hero-cta-primary"
             className="btn-primary text-white font-semibold text-base px-8 py-4 rounded-2xl w-full sm:w-auto"
           >
-            Start Learning Free →
+            Donate Now →
           </a>
           <a
-            href="#calculator"
+            href="#volunteer"
             id="hero-cta-secondary"
             className="btn-ghost text-white font-semibold text-base px-8 py-4 rounded-2xl w-full sm:w-auto"
           >
-            Try Savings Calculator
+            Volunteer With Us
           </a>
         </div>
 

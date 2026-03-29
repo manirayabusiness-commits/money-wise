@@ -13,6 +13,7 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
+    { label: "Our Impact", href: "#impact" },
     { label: "Features", href: "#features" },
     { label: "How It Works", href: "#how-it-works" },
     { label: "Calculator", href: "#calculator" },
@@ -56,14 +57,14 @@ export default function Navbar() {
 
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center gap-3">
-          <a href="#" className="text-sm text-[--muted] hover:text-white transition-colors duration-200 font-medium px-4 py-2">
-            Log In
+          <a href="#volunteer" className="text-sm text-[--muted] hover:text-white transition-colors duration-200 font-medium px-4 py-2">
+            Volunteer
           </a>
           <a
-            href="#features"
+            href="#donate"
             className="btn-primary text-sm font-semibold text-white px-5 py-2.5 rounded-xl"
           >
-            Get Started Free
+            Donate
           </a>
         </div>
 
@@ -97,8 +98,8 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a href="#" className="btn-primary text-center text-sm font-semibold text-white px-5 py-3 rounded-xl mt-2">
-            Get Started Free
+          <a href="#donate" className="btn-primary text-center text-sm font-semibold text-white px-5 py-3 rounded-xl mt-2">
+            Donate
           </a>
         </div>
       </div>
